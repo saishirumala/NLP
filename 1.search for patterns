@@ -12,3 +12,4 @@ email = re.findall(r"\w+@\w+\.\w+", text)
 print("Email:", email)
 
 print("Replaced:", re.sub(r"\d", "X", text))
+
